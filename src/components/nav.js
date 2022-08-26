@@ -2,7 +2,9 @@ import React from 'react';
 
 function Nav(){
     return(
-        <h1>Nav</h1>
+        <nav className='bg-danger text-center'>
+            <h1>Nav</h1>
+        </nav>
     )
 }
 
