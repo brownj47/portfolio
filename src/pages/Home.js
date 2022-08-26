@@ -25,16 +25,16 @@ function Home() {
         <>
             <nav className='row justify-content-around text-center'>
                 <div className='col-sm-12 col-md-3'>
-                    <button className={`btn ${page === 'About' ? 'active bg-dark' : ''}`} onClick={() => setPage('')}>About</button>
+                    <button className={`btn ${page === 'About' ? 'active bg-dark' : ''}`} onClick={() => setPage('About')}>About</button>
                 </div>
                 <div className='col-sm-12 col-md-3'>
-                    <button className="btn" onClick={() => setPage('Portfolio')}>Portfolio</button>
+                    <button className={`btn ${page === 'Portfolio' ? 'active bg-dark' : ''}`} onClick={() => setPage('Portfolio')}>Portfolio</button>
                 </div>
                 <div className='col-sm-12 col-md-3'>
-                    <button className="btn" onClick={() => setPage('Resume')}>Resume</button>
+                    <button className={`btn ${page === 'Resume' ? 'active bg-dark' : ''}`} onClick={() => setPage('Resume')}>Resume</button>
                 </div>
                 <div className='col-sm-12 col-md-3'>
-                    <button className="btn" onClick={() => setPage('Contact')}>Contact</button>
+                    <button className={`btn ${page === 'Contact' ? 'active bg-dark' : ''}`} onClick={() => setPage('Contact')}>Contact</button>
                 </div>
             </nav>
             <br />
