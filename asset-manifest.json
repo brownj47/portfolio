@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.1d797b6c.css",
+    "main.js": "/portfolio/static/js/main.b904b9af.js",
+    "static/media/vivachat.png": "/portfolio/static/media/vivachat.e81d5b682c3407024145.png",
+    "static/media/SurfDay.jpeg": "/portfolio/static/media/SurfDay.f05d9b974c64d7c77dd2.jpeg",
+    "index.html": "/portfolio/index.html",
+    "main.1d797b6c.css.map": "/portfolio/static/css/main.1d797b6c.css.map",
+    "main.b904b9af.js.map": "/portfolio/static/js/main.b904b9af.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1d797b6c.css",
+    "static/js/main.b904b9af.js"
+  ]
+}
