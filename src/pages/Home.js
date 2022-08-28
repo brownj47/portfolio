@@ -25,7 +25,7 @@ function Home() {
         <>
             <nav className='row justify-content-around text-center'>
                 <div className='col-sm-12 col-md-3'>
-                    <button className={`btn ${page === 'About' ? 'active bg-dark' : ''}`} onClick={() => setPage('About')}>About</button>
+                    <button className={`btn ${page === 'About' ? 'active bg-dark border-0' : ''}`} onClick={() => setPage('About')}>About</button>
                 </div>
                 <div className='col-sm-12 col-md-3'>
                     <button className={`btn ${page === 'Portfolio' ? 'active bg-dark' : ''}`} onClick={() => setPage('Portfolio')}>Portfolio</button>

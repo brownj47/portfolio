@@ -1,18 +1,23 @@
 import React from 'react';
 import './project.css'
 import imgArray from './assets/index'
+import { v4 as uuidv4 } from 'uuid';
 
 
 const projects = [
     {
+        id: uuidv4(),
         title: 'Random Video Chat',
         image: imgArray[0],
+        imgdesc: 'VideoChat in action',
         description: 'A random Video Chat application'
     },
     {
+        id: uuidv4(),
         title: 'Placeholder',
-        image: 'https://place-puppy.com/300x300',
-        description: 'A placeholder puppy'
+        image: 'https://place-puppy.com/1029x846',
+        imgdesc: 'a placeholder puppy',
+        description: 'A placeholder puppy '
     },
 ]
 
@@ -21,26 +26,30 @@ function Project() {
         <main className=' text-center row justify-content-center'>
             {projects.map((element) => {
                 return (
-                    <section className='col-sm-12 col-md-6 border border-3 rounded'>
+                    <section key={element.id} className='col-sm-12 col-md-6'>
                         <div className='proj-card-section'>
-                            <div className='text-center col-12 '>
+                            <div className='text-center col-12 card-title'>
                                 <h5>{element.title}</h5>
                             </div>
                             <div className=' row col-12'>
                                 <div className='col-1'></div>
-                                <img alt='placeholder img' src={element.image} className='text-center col-10' />
+                                <img alt={element.imgdesc} src={element.image} className='text-center col-10' />
                                 <div className='col-1'></div>
                             </div>
-
-
-                            <div className='row col-12'>
-                                <div className='col-1'></div>
-                                <div className='col-10 text-start'>
-                                    <p>
-                                        Project description: {element.description}
-                                    </p>
+                            <br />
+                            <div className=' row col-12'>
+                                <div className='row col-1'></div>
+                                <div className='row col-10'>
+                                    <div className='col-1'></div>
+                                    <div className='col-10 text-start'>
+                                        <p>
+                                            Project description: {element.description}
+                                        </p>
+                                    </div>
+                                    <div className='col-1'></div>
                                 </div>
-                                <div className='col-1'></div>
+                                <div className='row col-1'></div>
+
                             </div>
                         </div>
                     </section>

@@ -1,3 +1,10 @@
 nav{
     background-color: #BBCDE5;
 }
+button{
+    margin: 4px;
+}
+
+button:hover, button:active, button:focus, button:focus-visible{
+    border-width: 0;
+}

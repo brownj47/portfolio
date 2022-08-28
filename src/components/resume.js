@@ -1,42 +1,60 @@
 import React from "react";
 
-function Resume(){
-    return(
-        <main className='text-center'>
-            <h3>Resume</h3>
-            <p>
+function Resume() {
+    return (
+        <main>
+            <div className="row">
+                <div className="col-1"></div>
+                <div className="col-10">
 
+            <h2>Resume</h2>
 
+            <h4>Skills:</h4>
+            <ul>
+                <li>Front End and Back End development.</li>
+                <li>JavaScript (Node.js, Express,  Sequelize, React, MongoDB, Mongoose)</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>SQL</li>
+            </ul>
 
-LinkedIn: https://www.linkedin.com/in/justus-b-8a1158108/
-Skills
-Front End and Back End development. Strong in JavaScript,  HTML,  CSS,  SQL, and  Node.js (express,  sequelize). Familiar with Python.
-Experience
-Feb 2021 - Sept 2021
-Dermatology Arts, Bellevue - Medical Assistant
-Led and trained a team of Medical Assistants
-Assisted in surgical procedures
-Took inventory and ordered Medical supplies for the clinic
-Took patient vitals and medical histories
-Documented patient and physician interactions
-Sept 2018 - Feb 2021
-Varlamos Pizzeria, Seattle - Server
-Focused under pressure
-Triaged tasks by order of importance and urgency
-Served customers and prepared food
-Education
-June 2022 - Sept 2022
-University of Washington, Seattle - Full Stack Web Development Certificate
-Full-time Bootcamp (20 hrs classtime, 20 hrs homework/week)
-Sept  2018 - June  2021
-University of Washington, Seattle - BS Biology
-Phi Beta Kappa - GPA: 3.87
-University Chorale, Chamber Singers
-Awards
-People’s Choice and Best Functionality  for  Front-End Application, 2022
-Robert Jackson Block Award for Excellence in the Arts,  2018
+            <h4>Work Experience:</h4>
 
-</p>
+            <h5>Dermatology Arts, Bellevue - Medical Assitant: Feb 2021 - Sept 2021</h5>
+            <ul>
+                <li>Led and trained a team of Medical Assistants</li>
+                <li>Assisted in surgical procedures</li>
+                <li>Took patient vitals and medical histories</li>
+                <li>Took inventory and ordered Medical supplies for the clinic</li>
+                <li>Documented patient and physician interactions</li>
+            </ul>
+            <h5>Varlamos Pizzeria, Seattle - Server:  Sept 2018- Feb 2021</h5>
+            <ul>
+                <li>Focused under pressure</li>
+                <li>Triaged tasks by order of importance and urgency</li>
+                <li>Served customers and prepared food</li>
+            </ul>
+
+            <h4>Education:</h4>
+
+            <h5>University of Washington, Seattle:</h5>
+            <h6>Full Stack Web Development Certificate:</h6>
+            <ul>
+                <li>June 2022 - Sept 2022</li>
+                <li>20 hrs classtime, 20 hrs homework/week</li>
+                <li>People’s Choice and Best Functionality for a Front-End Application, July 2022</li>
+                <li>People’s Choice and Best UI/UX, Aug 2022</li>
+            </ul>
+            <h6>BS in Biology</h6>
+            <ul>
+                <li>June 2022 - Sept 2022</li>
+                <li>Phi Beta Kappa - GPA: 3.87</li>
+                <li>University Chorale</li>
+                <li>Chamber Singers</li>
+            </ul>
+                </div>
+                <div className="col-1"></div>
+            </div>
         </main>
     )
 }
