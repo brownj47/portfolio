@@ -10,14 +10,16 @@ const projects = [
         title: 'Random Video Chat',
         image: imgArray[0],
         imgdesc: 'VideoChat in action',
-        description: 'A random Video Chat application'
+        description: 'A random Video Chat application', 
+        link: 'https://vivachat.herokuapp.com/'
     },
     {
         id: uuidv4(),
         title: 'Placeholder',
         image: 'https://place-puppy.com/1029x846',
         imgdesc: 'a placeholder puppy',
-        description: 'A placeholder puppy '
+        description: 'A placeholder puppy',
+        link: "#"
     },
 ]
 
@@ -27,7 +29,7 @@ function Project() {
             {projects.map((element) => {
                 return (
                     <section key={element.id} className='col-sm-12 col-md-6'>
-                        <div className='proj-card-section'>
+                        <a href={element.link} className='proj-card-section'>
                             <div className='text-center col-12 card-title'>
                                 <h5>{element.title}</h5>
                             </div>
@@ -51,7 +53,7 @@ function Project() {
                                 <div className='row col-1'></div>
 
                             </div>
-                        </div>
+                        </a>
                     </section>
                 )
             })}

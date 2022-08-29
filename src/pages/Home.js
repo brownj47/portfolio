@@ -1,7 +1,7 @@
 import React, {  useState } from "react";
 import About from "../components/about/about";
 import Project from "../components/project/project";
-import Contact from "../components/contact";
+import Contact from "../components/contact/contact";
 import Resume from "../components/resume";
 import './home.css'
 

@@ -1,0 +1,15 @@
+.contact-form{ 
+    background-color: #BBCDE5; 
+    text-align: center; 
+    max-width: 600px; 
+    margin: 0 auto; 
+    border-radius: 25px; 
+    margin-top: 50px;
+}
+.form-text{
+    color: #222222 
+}
+
+.sub-btn{
+    background-color: #222222;
+}
