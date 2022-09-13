@@ -15,6 +15,22 @@ const projects = [
     },
     {
         id: uuidv4(),
+        title: `Mordenkainen's Waystone`,
+        image: imgArray[1],
+        imgdesc: 'Homepage of the application, shows the header, neavbar, a post, and a friend list.',
+        description: 'An application that allows avid gamers to find friends with similar interests.', 
+        link: 'https://jb-waystone-fornt.herokuapp.com/waystone-front/home'
+    },
+    {
+        id: uuidv4(),
+        title: 'DnD Machine',
+        image: imgArray[2],
+        imgdesc: 'The homepage of the application',
+        description: 'A random Video Chat application', 
+        link: 'https://vivachat.herokuapp.com/'
+    },
+    {
+        id: uuidv4(),
         title: 'Placeholder',
         image: 'https://place-puppy.com/1029x846',
         imgdesc: 'a placeholder puppy',
