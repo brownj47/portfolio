@@ -4,6 +4,8 @@
 
 This is my portfolio page. I built it using React.js because I wanted to showcase my projects in a concise and good looking format. It contains a short bio page, tiles showcasing my projects, a Resume page, and a (non-functional as of now) Contact form. 
 
+Visit my portfolio here: [https://brownj47.github.io/portfolio/](https://brownj47.github.io/portfolio/)
+
 ![Deployed Portfolio Page, showing tiles of a my past projects](./sshotport.png)
 
 ## Installation
