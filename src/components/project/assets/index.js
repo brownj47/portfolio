@@ -1,7 +1,11 @@
-import img0 from './vivachat.png'
+import vivaImg from './vivachat.png'
+import mordImg from './mord.png'
+import dndImg from './dndMachine.png'
 
 const imgArray = [
-    img0,
+    vivaImg,
+    mordImg,
+    dndImg
 ]
 
 export default imgArray
