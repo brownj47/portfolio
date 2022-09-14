@@ -10,7 +10,12 @@ const projects = [
         title: 'Random Video Chat',
         image: imgArray[0],
         imgdesc: 'VideoChat in action',
-        description: 'A random Video Chat application', 
+        description: `This application allows a user to videochat/instant message with a friend, or join randomized rooms to make new friends.
+
+        In this project, we learned how data is passed over the internet, how to initiate connections between browsers, how to create user sessions, how to protect routes so that only authenticated users have access, and how to use a templating language (handlebars).
+        
+        We wanted to use a technology we had not yet talked about in class, so we decided on WebRTC(peer.js) and WebSockets(socket.io).`,
+
         link: 'https://vivachat.herokuapp.com/'
     },
     {
@@ -18,8 +23,8 @@ const projects = [
         title: `Mordenkainen's Waystone`,
         image: imgArray[1],
         imgdesc: 'Homepage of the application, shows the header, navbar, a post, and a friend list.',
-        description: 'A social media application that allows avid gamers to find friends with similar interests.', 
-        link: 'https://jb-waystone-fornt.herokuapp.com/waystone-front/home'
+        description: 'A social media application that allows avid gamers to find friends with similar interests. It uses a MongoDB database, an express server, and a React Frontend.', 
+        link: 'https://jb-waystone-fornt.herokuapp.com/waystone-front/'
     },
     {
         id: uuidv4(),
@@ -35,7 +40,7 @@ const projects = [
         image: 'https://placedog.net/1029/846/r',
         imgdesc: 'A placeholder puppy',
         description: 'A placeholder puppy ',
-        link: "https://placedog.net/1029/846/r"
+        link: "https://placedog.net/1029/846?r"
     },
 ]
 
