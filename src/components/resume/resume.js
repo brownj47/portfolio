@@ -14,11 +14,11 @@ function Resume() {
 
                         <div className="indent">
                             <ul>
-                                <li>Front End and Back End development.</li>
-                                <li>JavaScript (Node.js, Express,  Sequelize, React, MongoDB, Mongoose)</li>
+                                <li>Full Stack Web Development</li>
+                                <li>JavaScript (React.js, Node.js, Express.js,  Sequelize.js,  MongoDB, Mongoose.js)</li>
                                 <li>HTML</li>
-                                <li>CSS</li>
-                                <li>SQL</li>
+                                <li>CSS (Bootstrap, Materialize)</li>
+                                <li>SQL/NoSQL</li>
                             </ul>
                         </div>
 
