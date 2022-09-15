@@ -1,10 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 
 function Lost() {
-
-
-
-
     return (
         <main className="text-center">
            
