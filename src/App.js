@@ -6,7 +6,7 @@ import Resume from './components/resume/Resume';
 import Header from './components/header/header';
 import Footer from './components/footer/footer';
 import Nav from './components/nav/Nav';
-import Lost from './components/404/Contact';
+import Lost from './components/404/Lost';
 // import Home from './pages/Home';
 import {
   Route,
