@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.680ae6e0.css",
-    "main.js": "/portfolio/static/js/main.43c5351b.js",
+    "main.css": "/portfolio/static/css/main.55868b87.css",
+    "main.js": "/portfolio/static/js/main.57f9b638.js",
     "static/media/mord.png": "/portfolio/static/media/mord.d04b6e4e7539349e1f85.png",
     "static/media/dndMachine.png": "/portfolio/static/media/dndMachine.2465b9f65b2c83897dab.png",
     "static/media/vivachat.png": "/portfolio/static/media/vivachat.e81d5b682c3407024145.png",
     "static/media/SurfDay.jpeg": "/portfolio/static/media/SurfDay.f05d9b974c64d7c77dd2.jpeg",
     "index.html": "/portfolio/index.html",
-    "main.680ae6e0.css.map": "/portfolio/static/css/main.680ae6e0.css.map",
-    "main.43c5351b.js.map": "/portfolio/static/js/main.43c5351b.js.map"
+    "main.55868b87.css.map": "/portfolio/static/css/main.55868b87.css.map",
+    "main.57f9b638.js.map": "/portfolio/static/js/main.57f9b638.js.map"
   },
   "entrypoints": [
-    "static/css/main.680ae6e0.css",
-    "static/js/main.43c5351b.js"
+    "static/css/main.55868b87.css",
+    "static/js/main.57f9b638.js"
   ]
 }
