@@ -4,6 +4,7 @@ import './resume.css'
 function Resume() {
     return (
         <main>
+            <a className="btn text-dark bg-light downloadBtn" download href="/files/WebDevResume.pdf">Download Resume</a>
             <div className="row">
                 <div className="col-1"></div>
                 <div className="col-10">
