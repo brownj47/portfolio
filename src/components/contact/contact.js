@@ -32,7 +32,7 @@ function Contact() {
     return (
         <main>
             <form className="contact-form" onSubmit={(e) => handleFormSubmit(e)}>
-
+                <br/>
                 <h2>Contact Form</h2>
                 <label className="form-text" htmlFor='name'>Name: </label>
                 <br />
