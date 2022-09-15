@@ -18,7 +18,7 @@ function Nav() {
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarToggle">
-                        <ul className="navbar-nav me-auto mb-2 mb-lg-0 justify-content-center">
+                        <ul className="navbar-nav mx-auto mb-2 mb-lg-0 justify-content-center">
                             <li className="nav-item">
                                 <Link to='/' className={`nav-link ${currentPage === 'home' ? 'active' : ''}`} aria-current="page" onClick={() => { setCurrentPage('home') }}> About</Link>
                             </li>
