@@ -6,6 +6,7 @@ function About() {
     return (
         <main className='text-center'>
             <h3>About Me</h3>
+            <br/>
             <div className='row content'>
                 <div className='col-1 col-md-2'></div>
                 <div className='col-10 col-md-8'>
@@ -13,7 +14,7 @@ function About() {
                 </div>
                 <div className='col-1 col-md-2'></div>
             </div>
-
+            <br/>
             <div className='row'>
                 <div className='col-md-2'></div>
                 <div className='col-md-8'>

@@ -47,7 +47,7 @@ const projects = [
 
 function Project() {
     return (
-        <main className=' text-center row justify-content-center'>
+        <main className=' text-center row justify-content-center container'>
             {projects.map((element) => {
                 return (
                     <section key={element.id} className='col-sm-12 col-md-6 proj-card'>

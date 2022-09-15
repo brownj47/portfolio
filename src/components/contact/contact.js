@@ -31,8 +31,6 @@ function Contact() {
 
     return (
         <main>
-
-
             <form className="contact-form" onSubmit={(e) => handleFormSubmit(e)}>
 
                 <h2>Contact Form</h2>
@@ -48,8 +46,6 @@ function Contact() {
                 <br />
                 <button type="submit" className="btn sub-btn text-light" >Submit</button>
             </form>
-
-
         </main>
     )
 }

@@ -4,3 +4,6 @@ footer{
 a{
     text-decoration: none; 
 }
+.footerBtn{
+    margin: 7px;
+}
