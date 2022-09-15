@@ -5,7 +5,6 @@ import './nav.css'
 function Nav() {
 
     const startPageUrlArray = window.location.href.split('/')
-    console.log(startPageUrlArray)
     const pageOnLoad = startPageUrlArray[startPageUrlArray.length-1] 
 
     const [currentPage, setCurrentPage] = useState(pageOnLoad)
