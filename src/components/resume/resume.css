@@ -4,3 +4,8 @@
 .downloadBtn{
     margin: 5px 10px 20px;
 }
+
+.res-text{
+    max-width: 75vh;
+    margin: 0 auto;
+}

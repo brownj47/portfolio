@@ -33,8 +33,8 @@ function Contact() {
         <main>
             <form className="contact-form" onSubmit={(e) => handleFormSubmit(e)}>
                 <br/>
-                <h2>Contact Form</h2>
-                <label className="form-text" htmlFor='name'>Name: </label>
+                <h2>Contact</h2>
+                {/* <label className="form-text" htmlFor='name'>Name: </label>
                 <br />
                 <input className="form-text" type='text' placeholder="Name" name="name" onChange={handleChange} value={name} />
 
@@ -44,7 +44,14 @@ function Contact() {
                 <input className="form-text" type='email' placeholder="Email" onChange={handleChange} value={email} name="email" />
 
                 <br />
-                <button type="submit" className="btn sub-btn text-light" >Submit</button>
+                <button type="submit" className="btn sub-btn text-light" >Submit</button> */}
+
+                <p className="form-text">Reach out to me via the following methods:</p>
+
+                <p className="form-text">Email: justus.c.brown@gmail.com</p>
+                <p className="form-text">LinkedIn: <a href="https://www.linkedin.com/in/justus-b-8a1158108/" target="_blank" rel="noopener noreferrer">https://www.linkedin.com/in/justus-b-8a1158108/</a></p>
+                {/* <p className="form-text">GitHub: <a href="https://github.com/brownj47" target="_blank" rel="noopener noreferrer">https://github.com/brownj47</a></p> */}
+                <br />
             </form>
         </main>
     )

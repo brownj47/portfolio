@@ -4,13 +4,14 @@ import './resume.css'
 function Resume() {
     return (
         <main>
-            <div className="row">
+            <div className="res-text">
                 <div className="col-1"></div>
+                
                 <div className="col-10">
 
                     <div className="indent">
 
-            <a className="btn text-dark bg-light downloadBtn" download href="/files/WebDevResumeJustusBrown.pdf">Download Resume</a>
+                        <a className="btn text-dark bg-light downloadBtn" download href="/files/WebDevResumeJustusBrown.pdf">Download Resume</a>
                         <h4>Skills:</h4>
 
                         <div className="indent">
@@ -66,6 +67,7 @@ function Resume() {
                         <div className="col-1"></div>
                     </div>
                 </div>
+                <div className="col-1"></div>
 
             </div>
         </main>
