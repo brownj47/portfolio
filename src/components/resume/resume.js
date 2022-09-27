@@ -11,7 +11,7 @@ function Resume() {
 
                     <div className="indent">
 
-                        <a className="btn text-dark bg-light downloadBtn" download href="/files/WebDevResumeJB.pdf">Download Resume</a>
+                        <a className="btn text-dark bg-light downloadBtn" download href="https://raw.githubusercontent.com/brownj47/portfolio/main/public/files/WebDevResumeJB.pdf">Download Resume</a>
                         <h4>Skills:</h4>
 
                         <div className="indent">
