@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.a7dd867c.css",
-    "main.js": "/portfolio/static/js/main.10c63ab0.js",
+    "main.js": "/portfolio/static/js/main.b40d7432.js",
     "static/media/mord.png": "/portfolio/static/media/mord.d04b6e4e7539349e1f85.png",
     "static/media/dndMachine.png": "/portfolio/static/media/dndMachine.2465b9f65b2c83897dab.png",
     "static/media/vivachat.png": "/portfolio/static/media/vivachat.e81d5b682c3407024145.png",
     "static/media/SurfDay.jpeg": "/portfolio/static/media/SurfDay.f05d9b974c64d7c77dd2.jpeg",
     "index.html": "/portfolio/index.html",
     "main.a7dd867c.css.map": "/portfolio/static/css/main.a7dd867c.css.map",
-    "main.10c63ab0.js.map": "/portfolio/static/js/main.10c63ab0.js.map"
+    "main.b40d7432.js.map": "/portfolio/static/js/main.b40d7432.js.map"
   },
   "entrypoints": [
     "static/css/main.a7dd867c.css",
-    "static/js/main.10c63ab0.js"
+    "static/js/main.b40d7432.js"
   ]
 }
