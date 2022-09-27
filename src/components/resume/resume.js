@@ -11,16 +11,17 @@ function Resume() {
 
                     <div className="indent">
 
-                        <a className="btn text-dark bg-light downloadBtn" download href="/files/WebDevResumeJustusBrown.pdf">Download Resume</a>
+                        <a className="btn text-dark bg-light downloadBtn" download href="/files/WebDevResumeJB.pdf">Download Resume</a>
                         <h4>Skills:</h4>
 
                         <div className="indent">
                             <ul>
-                                <li>Full Stack Web Development</li>
-                                <li>JavaScript (React.js, Node.js, Express.js,  Sequelize.js,  MongoDB, Mongoose.js)</li>
+                                <li>JavaScript</li>
+                                <li>Node.js(Express.js, Sequelize.js, React.js, Peer.js, Socket.io)</li>
+                                <li>MERN Stack</li>
                                 <li>HTML</li>
                                 <li>CSS (Bootstrap, Materialize)</li>
-                                <li>SQL/NoSQL</li>
+                                <li>SQL/NoSQL (MongoDB, Sequelize)</li>
                             </ul>
                         </div>
 
@@ -53,7 +54,7 @@ function Resume() {
                                     <li>June 2022 - Sept 2022</li>
                                     <li>20 hrs classtime, 20 hrs homework/week, 12 weeks</li>
                                     <li>People’s Choice and Best Functionality for a Front-End Application, July 2022</li>
-                                    <li>People’s Choice and Best UI/UX, Aug 2022</li>
+                                    <li>People’s Choice and Best UI/UX for a Full Stack Application, Aug 2022</li>
                                 </ul>
                                 <h6>- BS in Biology</h6>
                                 <ul>
