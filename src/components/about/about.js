@@ -19,8 +19,13 @@ function About() {
                 <div className='col-md-2'></div>
                 <div className='col-md-8'>
                     <div className='about-text text-start'>
-                        <p>Welcome to my Portfolio! My name is Justus Brown. I am a recent graduate of the University of Washington's Biology program. Although I originally intended to pursue a career in medicine, I decided to pivot from that career path, and took part in UW's Full Stack Web Development Bootcamp. </p>
-                        <p>I am most interested in working with the intersection of biology/medicine and software. </p>
+                        <p>Welcome to my Portfolio! My name is Justus Brown. 
+
+                         I am a Full Stack Web Developer with a background in Biology and Healthcare.</p>
+                         
+                         <p>I recently graduated from the University of Washington’s Full Stack Web Development Certificate Program. I am interested in roles in the intersection of technology and biology.</p>   
+                            
+                         <p>I am a creative, thorough problem-solver with a ready-to-learn attitude, and a passion for utility, beauty, and a positive user experience.</p>
                     </div>
                 </div>
                 <div className='col-md-2'></div>

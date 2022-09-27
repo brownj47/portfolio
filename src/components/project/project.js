@@ -43,9 +43,9 @@ const projects = [
         title: 'Placeholder',
         image: 'https://placedog.net/1029/846?r',
         imgdesc: 'A placeholder puppy',
-        description: 'DISCLAIMER - Not my project, but if you click on this tile, you will be sent to a url with a random dog image, which is kinda nice. Watch out if you click on the repo button below, as it will duplicate this tab.',
+        description: 'DISCLAIMER - Not my project, but if you click on this tile, you will be sent to a url with a random dog image, which is kinda nice.',
         link: "https://placedog.net/1029/846?r",
-        githubLink: '#/projects',
+        githubLink: 'https://placedog.net/',
     },
 ]
 
